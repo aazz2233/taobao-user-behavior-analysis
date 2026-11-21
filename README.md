@@ -1,5 +1,10 @@
 # 淘宝用户行为数据分析（1 亿条）
 
+[![CI](https://github.com/aazz2233/taobao-user-behavior-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/aazz2233/taobao-user-behavior-analysis/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-3776AB)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![DuckDB](https://img.shields.io/badge/DuckDB-1.1%2B-yellow)](https://duckdb.org/)
+
 对阿里天池 **UserBehavior** 数据集（100,150,807 行、3.6 GB）的一次完整分析：
 数据清洗 → PV/UV 与流量走势 → 行为转化漏斗 → 活跃时段 → RFM 用户分层 → 商品与类目维度。
 
