@@ -1,0 +1,27 @@
+# ---- 数据文件（体积远超 GitHub 限制，从阿里天池自行下载） ----
+data/
+UserBehavior.csv
+*.csv.gz
+*.zip
+*.db
+*.duckdb
+*.duckdb.wal
+*.parquet
+
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
